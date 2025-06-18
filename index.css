@@ -196,7 +196,7 @@
 .weekendTrips .card p{
     margin: 10px 0;
 }
-.weekendTrips, .privateAccomodation .cards{
+.weekendTrips .cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
@@ -221,4 +221,55 @@
 }
 .summer .card p{
     font-size: 13px !important;
+}
+.privateAccomodation{
+    margin: 0 5%;
+    padding: 1%;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.privateAccomodation .card img{
+    width: 100%;
+    border-radius: 10px;
+    height: 14em;
+}
+
+.privateAccomodation .card{
+    width: 55%;
+    overflow: hidden;
+    height: 14em;
+    position: relative;
+    margin: 0 10px;
+}
+.privateAccomodation .card div{
+    display: flex;
+    align-items: center;
+}
+.privateAccomodation .card div p:first-child{
+    background-color: rgb(54, 128, 93);
+    padding: 3px 8px;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.privateAccomodation .card p{
+    margin: 10px 0;
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+.privateAccomodation .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.privateAccomodation .head{
+    width: 90%;
+    padding-right: 4%;
+}
+.privateAccomodation .head p{
+    
+    color: rgb(78, 78, 78);
 }
