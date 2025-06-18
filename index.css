@@ -325,6 +325,13 @@
     line-height: 20px;
     color: rgb(73, 73, 73);
 }
+.final{
+    padding: 5%;
+    color: rgb(73, 73, 73);
+}
+.final h3{
+    margin: 2em 10px;
+}
 footer{
     background: rgb(241, 241, 241);
     padding: 5% 15% 5% 5%;
