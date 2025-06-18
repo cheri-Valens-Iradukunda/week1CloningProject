@@ -313,3 +313,15 @@
     border-radius: 30px;
     margin-top: 1em;
 }
+.bottom{
+    width:  100%;
+    padding: 5%;
+}
+.bottom h2{
+    margin: 1em 0;
+    color: rgb(48, 48, 48);
+}
+.bottom p{
+    line-height: 20px;
+    color: rgb(73, 73, 73);
+}
