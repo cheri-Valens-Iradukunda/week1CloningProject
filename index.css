@@ -1,11 +1,202 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headDiv{
+    background-image: url("images/headBackground.jpeg");
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 90vh;
 }
 .headDiv .nav{
     background-color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.headDiv ul{
+    display: flex;
+    margin: 10px 0;
+}
+.headDiv ul li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 14px;
+}
+.headDiv .nav h2{
+    color: rgb(21, 100, 204);
+    font-size: 35px;
+}
+.headDiv .nav ul li:hover{
+    color: rgb(5, 54, 161);
+}
+.headDiv .body{
+    margin-top: 35vh;
+    padding: 0 6%;
+}
+.headDiv .body h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
+.headDiv .body form{
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.headDiv .body form div{
+    display: inline-block;
+    height: 2em;
+    margin: 0px 2px;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    outline: none;
+}
+.headDiv .body form button{
+    width: 6%;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    height: 2em;
+    margin-left: 1%;
+    border: none;
+    background-color: rgb(21, 100, 204);
+}
+.body .topNav .first{
+    background: rgb(1, 1, 58);
+    margin: 2em 7%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.body .topNav .first button{
+    background: rgb(21, 100, 204);
+    border: none;
+    border-radius: 20px;
+    /* width: 4em; */
+    /* height: 2em; */
+    padding: 10px;
+}
+.body .topNav .first i{
+    color: white;
+    margin-right: 5px;
+    background-color: rgb(121, 168, 168);
+    padding: 10px;
+    border-radius: 20px;
+}
+.body .topNav .first div{
+    display: flex;
+    align-items: center;
+}
+.body .topNav .last div{
+    width: 30%;
+    display: flex;
+    background-color: rgb(21, 100, 204);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
 
+.body .topNav .last div img{
+    width: 50%;
+    height: 100%;
+}
+.body .topNav .last{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+.body .topNav .last div div{
+    width: 50%;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.body .topNav .last div div p:last-child{
+    position: absolute;
+    bottom: 5px;
+}
+.body .imagesDiv .card{
+    width: 24%;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 40vh;
+    background-color: blue;
+    position: relative;
+}
+.body .imagesDiv{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-around;
+}
+.body .imagesDiv img{
+    height: 40vh;
+}
+.body .imagesDiv .card p{
+    color: rgb(255, 254, 254);
+    position: absolute;
+    bottom: 5px;
+    left: 4px;
+    z-index: 10;
+    font-weight: bolder;
+}
+.body .firstImages h3{
+    color: rgb(45, 45, 80);
+    margin: 3em 5% 1em 6%;
+}
+.weekendTrips{
+    padding: 1% 5%;
+}
+.weekendTrips .head h2{
+    color: rgb(45, 45, 80);
+    letter-spacing: 1px;
+    padding: 6px 0;
+}
+.weekendTrips .head p{
+    padding: 5px 0 15px 0;
+}
+.weekendTrips .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.weekendTrips .card{
+    width: 95%;
+    overflow: hidden;
+    /* line-height: 2em; */
+}
+.weekendTrips .card div{
+    display: flex;
+    align-items: center;
+}
+.weekendTrips .card div p:first-child{
+    background-color: rgb(54, 128, 93);
+    padding: 3px 8px;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.weekendTrips .card p{
+    margin: 10px 0;
+}
+.weekendTrips .cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
