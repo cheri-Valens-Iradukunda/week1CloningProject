@@ -42,6 +42,7 @@
 .headDiv .body{
     margin-top: 35vh;
     padding: 0 6%;
+    
 }
 .headDiv .body h1{
     color: white;
@@ -54,6 +55,8 @@
     width: 100%;
     border-radius: 8px;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
 .headDiv .body form div{
     display: inline-block;
